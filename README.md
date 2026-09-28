@@ -13,4 +13,23 @@ This repository contains the complete experimental setup, empirical benchmark da
 
 Both hypervisors were deployed with identically configured **Ubuntu Virtual Machines** (2 vCPU, 2 GB RAM, 20 GB Disk). The standard `sysbench` CPU prime-number calculation benchmark (`--cpu-max-prime=20000`) was executed on both virtual machines under identical workload conditions.
 
-## Key Finding
+---
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── Type-1 proxmox/
+│   ├── 01-proxmox-dashboard.png
+│   ├── 02-proxmox-vm-configuration.png
+│   ├── 03-proxmox-vm-running.png
+│   ├── 04-proxmox-ubuntu-console.png
+│   ├── 05-proxmox-system-configuration.png
+│   ├── 06-proxmox-sysbench-result.png
+│   ├── 07-proxmox-resource-monitor.png
+│   └── README.md
+├── Type2-vmware/
+├── VComparison/
+└── results/
+    └── performance-analysis.md
