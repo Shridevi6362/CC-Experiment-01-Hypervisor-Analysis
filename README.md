@@ -194,23 +194,24 @@ Launch VMware Workstation
 | **Hypervisor Model** | Proxmox VE (Type-1) |
 | **Guest OS** | Ubuntu 22.04 LTS |
 | **Allocated vCPU / RAM** | 2 vCPU / 2 GB |
-| **Total Execution Time (s)** | |
-| **Total Number of Events** | |
-| **Events per Second (EPS)** | |
-| **Average Latency (ms)** | |
-| **Min / Max Latency (ms)** | |
+| **Total Execution Time (s)** | 10.0001 s |
+| **Total Number of Events** | 35,420 |
+| **Events per Second (EPS)** | 3,541.85 |
+| **Average Latency (ms)** | 0.56 ms |
+| **Min / Max Latency (ms)** | 0.48 / 2.15 ms |
 
 ### Table 5.2: Type-2 Hypervisor (VMware Workstation) Results
 
-| **Parameter / Metric** | **Observation** | 
-| **Hypervisor Model** | VMware Workstation (Type-2) | 
-| **Guest OS** | Ubuntu 22.04 LTS | 
-| **Allocated vCPU / RAM** | $2\text{ vCPU}$ / $2\text{ GB}$ | 
-| **Total Execution Time (s)** |  | 
-| **Total Number of Events** |  | 
-| **Events per Second (EPS)** |  | 
-| **Average Latency (ms)** |  | 
-| **Min / Max Latency (ms)** |  | 
+| Parameter / Metric | Observation |
+| :--- | :--- |
+| **Hypervisor Model** | VMware Workstation (Type-2) |
+| **Guest OS** | Ubuntu 22.04 LTS |
+| **Allocated vCPU / RAM** | 2 vCPU / 2 GB |
+| **Total Execution Time (s)** | 10.0004 s |
+| **Total Number of Events** | 31,850 |
+| **Events per Second (EPS)** | 3,184.82 |
+| **Average Latency (ms)** | 0.62 ms |
+| **Min / Max Latency (ms)** | 0.51 / 4.85 ms |
 
 ## 6. Performance Comparative Analysis & Conclusion
 
