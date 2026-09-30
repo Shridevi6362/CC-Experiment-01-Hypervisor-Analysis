@@ -13,7 +13,7 @@ This repository contains the complete experimental setup, empirical benchmark da
 
 Both hypervisors were deployed with identically configured **Ubuntu Virtual Machines** (2 vCPU, 2 GB RAM, 20 GB Disk). The standard `sysbench` CPU prime-number calculation benchmark (`--cpu-max-prime=20000`) was executed on both virtual machines under identical workload conditions.
 
- # EXPERIMENT REPORT: Performance Analysis of Type-1 and Type-2 Hypervisors
+ # EXPERIMENT: Performance Analysis of Type-1 and Type-2 Hypervisors
 
 
 **Course:** Cloud Computing / Computer Networks
