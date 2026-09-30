@@ -32,16 +32,16 @@ By controlling hardware allocations ($2\text{ vCPU}$, $2\text{ GB RAM}$, $20\tex
 
 To ensure an unbiased empirical evaluation, identical hardware parameters were allocated to both virtual instances.
 
-| 
 
-| **Parameter** | **Type-1 Hypervisor (Proxmox VE)** | **Type-2 Hypervisor (VMware Workstation)** | 
-| **Hypervisor Architecture** | Bare-Metal / Native | Hosted (Runs on Host OS) | 
-| **Guest Operating System** | Ubuntu 22.04 LTS (64-bit) | Ubuntu 22.04 LTS (64-bit) | 
-| **VM Name** | `CC-Experiment1-Type1` | `CC-Experiment1-Type2` | 
-| **Virtual CPUs (vCPU)** | $2\text{ Cores}$ ($1\text{ Socket} \times 2\text{ Cores}$) | $2\text{ Cores}$ ($1\text{ Processor} \times 2\text{ Cores}$) | 
-| **System RAM** | $2048\text{ MiB}$ ($2\text{ GB}$) | $2048\text{ MiB}$ ($2\text{ GB}$) | 
-| **Virtual Disk Allocation** | $20\text{ GB}$ (`local-lvm`) | $20\text{ GB}$ (Single Disk File) | 
-| **Network Interface** | Linux Bridge (`vmbr0`) / VirtIO | NAT | 
+| Parameter | Type-1 Hypervisor (Proxmox VE) | Type-2 Hypervisor (VMware Workstation) |
+| :--- | :--- | :--- |
+| **Hypervisor Architecture** | Bare-Metal / Native | Hosted (Runs on Host OS) |
+| **Guest Operating System** | Ubuntu 22.04 LTS (64-bit) | Ubuntu 22.04 LTS (64-bit) |
+| **VM Name** | CC-Experiment1-Type1 | CC-Experiment1-Type2 |
+| **Virtual CPUs (vCPU)** | 2 Cores (1 Socket × 2 Cores) | 2 Cores (1 Processor × 2 Cores) |
+| **System RAM** | 2048 MiB (2 GB) | 2048 MiB (2 GB) |
+| **Virtual Disk Allocation** | 20 GB (local-lvm) | 20 GB (Single Disk File) |
+| **Network Interface** | Linux Bridge (vmbr0) / VirtIO | NAT |
 
 ## 3. Part A: Type-1 Hypervisor Procedure (Proxmox VE)
 
