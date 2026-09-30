@@ -217,13 +217,21 @@ Launch VMware Workstation
 
 ### Comparative Evaluation
 
-| **Performance Indicator** | **Type-1 (Proxmox VE)** | **Type-2 (VMware Workstation)** | **Superior Architecture** | 
-| **CPU Overhead** | Minimal (Direct Hardware Scheduling) | Moderate (Mediated by Host OS Kernel) | **Type-1 (Proxmox VE)** | 
-| **Events Per Second (EPS)** | Higher | Lower / Moderately Lower | **Type-1 (Proxmox VE)** | 
-| **Latency Stability** | Low, consistent frame times | Slightly variable due to host OS tasks | **Type-1 (Proxmox VE)** | 
-| **Deployment Complexity** | Requires dedicated server/bare-metal | Easy installation on existing desktop OS | **Type-2 (VMware Workstation)** | 
+### Comparative Evaluation
+
+| Performance Indicator | Type-1 (Proxmox VE) | Type-2 (VMware Workstation) | Superior Architecture |
+| :--- | :--- | :--- | :--- |
+| **CPU Overhead** | Minimal (Direct Hardware Scheduling) | Moderate (Mediated by Host OS Kernel) | Type-1 (Proxmox VE) |
+| **Events Per Second (EPS)** | Higher | Lower / Moderately Lower | Type-1 (Proxmox VE) |
+| **Latency Stability** | Low, consistent frame times | Slightly variable due to host OS tasks | Type-1 (Proxmox VE) |
+| **Deployment Complexity** | Requires dedicated server/bare-metal | Easy installation on existing desktop OS | Type-2 (VMware Workstation) |
 
 ### Conclusion
+The benchmark analysis demonstrates clear trade-offs between Type-1 (bare-metal) and Type-2 (hosted) virtualization architectures:
+
+Performance & Efficiency: Proxmox VE (Type-1) delivers superior computational efficiency, achieving higher Events per Second (EPS) and consistently lower, more stable latency. By bypassing a host operating system, it minimizes CPU overhead and context switching, making it the optimal choice for production workloads, high-throughput server applications, and enterprise environments.
+
+Usability & Accessibility: VMware Workstation (Type-2) introduces moderate CPU overhead and minor latency variability due to host OS task scheduling. However, it excels in deployment ease and developer accessibility, making it ideal for rapid prototyping, local software testing, and desktop experimentation.
 
 ## 📁 Repository Structure
 
