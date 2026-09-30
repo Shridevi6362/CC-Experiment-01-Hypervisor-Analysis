@@ -189,15 +189,16 @@ Launch VMware Workstation
 
 ### Table 5.1: Type-1 Hypervisor (Proxmox VE) Results
 
-| **Parameter / Metric** | **Observation** | 
-| **Hypervisor Model** | Proxmox VE (Type-1) | 
-| **Guest OS** | Ubuntu 22.04 LTS | 
-| **Allocated vCPU / RAM** | $2\text{ vCPU}$ / $2\text{ GB}$ | 
-| **Total Execution Time (s)** |  | 
-| **Total Number of Events** |  | 
-| **Events per Second (EPS)** |  | 
-| **Average Latency (ms)** |  | 
-| **Min / Max Latency (ms)** |  | 
+| Parameter / Metric | Observation |
+| :--- | :--- |
+| **Hypervisor Model** | Proxmox VE (Type-1) |
+| **Guest OS** | Ubuntu 22.04 LTS |
+| **Allocated vCPU / RAM** | 2 vCPU / 2 GB |
+| **Total Execution Time (s)** | |
+| **Total Number of Events** | |
+| **Events per Second (EPS)** | |
+| **Average Latency (ms)** | |
+| **Min / Max Latency (ms)** | |
 
 ### Table 5.2: Type-2 Hypervisor (VMware Workstation) Results
 
